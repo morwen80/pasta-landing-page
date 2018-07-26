@@ -7,6 +7,13 @@
   line-height: 130%;
 }
 
+#header-img {
+  width: 30px;
+}
+
+.section-1 {
+  padding-top: 50px;
+}
 .card-title {
   font-weight: bold;
   text-transform: uppercase;
@@ -16,16 +23,12 @@
 .request {
   background-color: #ffebcd;
   border-radius: 15px;
-
 }
 
-/* #video {
-  width: 90%;
-} */
-
-footer {
-  background-color: grey;
+.request h2 {
+  padding-top: 1rem;
 }
+
 
 footer p {
   color: #fff;
