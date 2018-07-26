@@ -1,0 +1,35 @@
+.container-fluid, .container {
+  padding-bottom: 2rem;
+}
+
+#descr p {
+  font-size: 2.5rem;
+  line-height: 130%;
+}
+
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.request {
+  background-color: #ffebcd;
+  border-radius: 15px;
+
+}
+
+/* #video {
+  width: 90%;
+} */
+
+footer {
+  background-color: grey;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1rem;
+}
