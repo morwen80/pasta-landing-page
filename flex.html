@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    .container-1 {
+      display: flex;
+    }
+  .container-2 {
+    display: flex;
+    /*justify-content: flex-start; Default Value. it can also be FLEX-END or CENTER*/
+    justify-content: space-between; /*to have margin even outside the boxes, select SPACE-AROUND*/
+  }
+
+    .container-1 div, .container-2 div {
+        border: 1px solid grey;
+        padding: 10px;
+    }
+
+    .box1 {
+      flex: 2; /*it's the space every column have in the row */
+      order: 2; /* sposta la colonna in seconda posizione */
+      }
+
+    .box2 {
+      flex: 1;
+      order: 3;
+    }
+
+    .box3 {
+      flex: 1;
+      order: 1;
+    }
+
+.container-2-box {
+      flex-basis: 30%; /* e' come WIDTH, ma piu' adatto ai flexbox */
+    }
+
+  </style>
+  <body>
+    <div class="container-1">
+      <div class="box1">
+        <h3>Box One</h3>
+        <p>sdajsdk sdj sadjk sda</p>
+      </div>
+
+      <div class="box2">
+        <h3>Box Two</h3>
+        <p>sdajsdk sdssd sd ssdj sadjk sda</p>
+      </div>
+
+      <div class="box3">
+        <h3>Box Three</h3>
+        <p>sdajsdk sdssd sd ssdj sadjk sda</p>
+      </div>
+    </div>
+
+
+    <div class="container-2">
+      <div class="container-2-box">
+        <h3>Box Four</h3>
+        <p>sdajsdk sdj sadjk sda</p>
+      </div>
+
+      <div class="container-2-box">
+        <h3>Box Five</h3>
+        <p>sdajsdk sdssd sd ssdj sadjk sda</p>
+      </div>
+
+      <div class="container-2-box">
+        <h3>Box Six</h3>
+        <p>sdajsdk sdssd sd ssdj sadjk sda</p>
+      </div>
+
+    </div>
+  </body>
+</html>

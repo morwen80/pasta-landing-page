@@ -1,0 +1,70 @@
+.container-fluid, .container {
+  padding-bottom: 2rem;
+}
+
+#descr p {
+  font-size: 2.5rem;
+  line-height: 130%;
+}
+
+#header-img {
+  width: 30px;
+}
+
+.section-1 {
+  padding: 50px 10px 2rem 3rem;
+  background-color: red;
+    display: flex;
+}
+
+.pic {
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.slogan {
+  flex-wrap: wrap;
+
+}
+.section-2 {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+.section-3 {
+
+}
+.card {
+    background-color: grey;
+}
+
+.request {
+  background-color: #ffebcd;
+  border-radius: 15px;
+}
+
+.request h2 {
+  padding-top: 1rem;
+}
+
+
+footer p {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+<!--  FLEXBOX -->
+
+.box-prova-flexbox {
+  display: flex;
+  align-item: flex-start; /* make the box as small as its content. block align towards the top  */
+}
+
+.box1 {
+  flex: 1;
+  }
+
+  .box2 {
+  flex: 1;
+}

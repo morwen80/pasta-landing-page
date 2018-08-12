@@ -1,0 +1,77 @@
+.container-fluid, .container {
+  padding-bottom: 2rem;
+}
+
+#descr p {
+  font-size: 2.5rem;
+  line-height: 130%;
+}
+
+#header-img {
+  width: 30px;
+}
+
+.section-1 {
+  padding: 50px 10px 2rem 3rem;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.section-2 {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.request {
+  background-color: #ffebcd;
+  border-radius: 15px;
+}
+
+.request h2 {
+  padding-top: 1rem;
+}
+
+
+.section-4 .request {
+  width: 45%;
+  margin-bottom: 1rem;
+}
+.section-4 .video {
+  width: 45%;
+  border: 2px solid red;
+}
+footer p {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+<!-- flexbox -->
+.container-flexx {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+.container-flexx div {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.box1 {
+  flex: 2;
+  }
+
+.box2 {
+  flex: 1;
+}
+
+.box3 {
+  flex: 1;
+}

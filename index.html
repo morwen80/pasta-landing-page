@@ -9,9 +9,10 @@
   </head>
   <body>
 
-    <div class="container-fluid header">
+<header id="header">
+    <!-- <div class="container-fluid header"> -->
 <nav id="nav-bar"class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="http://valeriaragonese.altervista.org/pasta/img/spaghetti.png" id="header-img"></a>
+  <a class="navbar-brand"><img src="http://valeriaragonese.altervista.org/pasta/img/spaghetti.png" id="header-img"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,7 +22,7 @@
         <a class="nav-link" href="#recipes">Recipes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#form">Get in Touch</a>
+        <a class="nav-link" href="#contact">Get in Touch</a>
       </li>
        <li class="nav-item">
          <a class="nav-link" href="#video">Video</a>
@@ -31,91 +32,85 @@
 </nav>
 </div>
 
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-12">
-     <img class="img-fluid" id="header-img" src="https://www.giallozafferano.it/images/ricette/165/16513/foto_hd/hd650x433_wm.jpg">
-    </div>
-  </div> -->
 
+<section id="intro">
   <div class="container section-1">
     <div class="row">
       <div class="col-md-6">
-       <img class="img-fluid" id="header-img2" src="https://www.giallozafferano.it/images/ricette/165/16513/foto_hd/hd650x433_wm.jpg">
+       <img class="img-fluid" src="https://www.giallozafferano.it/images/ricette/165/16513/foto_hd/hd650x433_wm.jpg" alt="Spaghetti al Sugo">
       </div>
       <div class="col-md-6">
         <h1 class="display-1">PASTA!</h1>
-        <h3 class="display-3">We can't get enough of it</h3>
       </div>
     </div>
+</div>
+</section>
 
-  <hr>
+</header>
 
-  <div class="row section-2">
-    <div class="col-12" id="descr">
-       <p class="lead">We are Italians. We love pasta.
-       <br>We would love pasta even if we were not.
-       <br>Because who doesn't like pasta?
+<hr>
+
+    <section id="descr">
+       <p>We are Italians.
+       <br>We love pasta.
+       <br>We would love pasta even if we were not Italians.
+       <br>Because who doesn't love pasta?
        <br>No. Seriously.
-       <br>Who doesn't?</p>
-    </div>
+       <br><br>Who doesn't?</p>
+    </section>
+
+<hr>
+
+<section id="recipes">
+  <div class="try">Try Out Our Recipes</div>
+  <div class="three">These 3 are on us!</div>
+
+
+<div class="container-recipe">
+  <div class="box">
+    <h3>Pasta alla Carbonara</h3>
+    <img class="recipe" src="http://valeriaragonese.altervista.org/pasta/img/carbonara.jpg">
+    <p>yummy yummy yummy</p>
+    <button type="button" class="btn btn-success">View the Recipe</button>
+  </div>
+
+  <div class="box">
+    <h3>Lasagna</h3>
+    <img class="recipe" src="http://valeriaragonese.altervista.org/pasta/img/lasagna.jpg">
+    <p>Pronounced /ləˈzænjə/</p>
+    <button type="button" class="btn btn-success">View the Recipe</button>
+  </div>
+
+  <div class="box">
+    <h3>Penne all'Arrabbiata</h3>
+    <img class="recipe" src="http://valeriaragonese.altervista.org/pasta/img/penne.jpg">
+    <p>yummy yummy yummy</p>
+    <button type="button" class="btn btn-success">View the Recipe</button>
   </div>
 </div>
+</section>
 
 
-<div class="container section-3" id="recipes">
-  <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="http://valeriaragonese.altervista.org/pasta/img/carbonara.jpg" alt="Spaghetti alla Carbonara">
-    <div class="card-body">
-      <h5 class="card-title">Pasta alla Carbonara</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <button type="button" class="btn btn-success">View the Recipe</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="http://valeriaragonese.altervista.org/pasta/img/lasagna.jpg" alt="Lasagna">
-    <div class="card-body">
-      <h5 class="card-title">Lasagna</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <button type="button" class="btn btn-success">View the Recipe</button>
-
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="http://valeriaragonese.altervista.org/pasta/img/penne.jpg" alt="Penne all'arrabbiata">
-    <div class="card-body">
-      <h5 class="card-title">Penne all'arrabbiata</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-      <button type="button" class="btn btn-success">View the Recipe</button>
-    </div>
-  </div>
-</div>
-</div>
-
-
-  <div class="container section-4">
-    <div class="row">
-        <div class="col-md-6 request">
+  <section id="contact">
         <h2>Want more pasta in your inbox?<h2>
         <h3>Sign up for daily recipes</h3>
 
-        <form id="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
           </div>
           <button type="submit" class="btn btn-danger">Submit</button>
         </form>
-    </div>
 
-    <div class="col-md-6" id="descr">
-       <div class="embed-responsive embed-responsive-16by9">
-         <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/pHJhB4pmPCg"></iframe>
+</section>
+
+    <section id="video">
+       <div class="vid embed-responsive embed-responsive-16by9">
+         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pHJhB4pmPCg"></iframe>
        </div>
     </div>
   </div>
-</div>
+</section>
 
 <footer class="bg-danger">
   <p>coded by Valeria Ragonese</p>

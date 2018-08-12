@@ -1,38 +1,108 @@
-.container-fluid, .container {
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Upright');
+
+#intro {
+  padding-top: 4rem;
   padding-bottom: 2rem;
 }
 
 #descr p {
-  font-size: 2.5rem;
-  line-height: 130%;
+  font-size: 2rem;
+  line-height: 142%;
+  font-family: 'Cormorant Upright', serif;
+  text-transform: uppercase;
 }
 
 #header-img {
   width: 30px;
 }
 
-.section-1 {
-  padding-top: 50px;
-}
-.card-title {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 1.6rem;
+section {
+  padding: 1.5rem 1rem;
 }
 
-.request {
+
+h1 {
+  text-align: center;
+  font-family: 'Clicker Script', cursive;
+}
+
+#contact {
   background-color: #ffebcd;
   border-radius: 15px;
+  width: 80%;
+  padding: .8rem;
+  margin: 0 auto;
 }
 
-.request h2 {
-  padding-top: 1rem;
+#contact h2, h3 {
+  text-align: center;
 }
 
-
+.vid {
+  width: 65%;
+  margin: 0 auto;
+}
 footer p {
   color: #fff;
   font-size: 1.3rem;
   text-align: center;
   padding: 1rem;
+}
+
+
+.container-recipe {
+  display: flex;
+  padding: 1.2rem;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+flex-direction: column;
+  padding: 1rem;
+}
+
+.box h3 {
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 500;
+}
+
+.recipe {
+  width: 450px;
+  margin: auto;
+   display: block;
+max-width: 100%;
+max-height: 450px;
+}
+
+.try {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Clicker Script', cursive;
+}
+
+.three {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Cormorant Upright', serif;
+}
+
+
+@media only screen and (max-width: 800px) {
+  #intro {
+    padding-top: 3.5rem;
+  }
+
+    .container-recipe {
+      flex-direction: column;
+    }
+
+    .vid {
+      width: 90%;
+    }
 }
