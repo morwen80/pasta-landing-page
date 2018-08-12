@@ -24,6 +24,7 @@ section {
 
 h1 {
   text-align: center;
+  padding-top: 25%;
   font-family: 'Clicker Script', cursive;
 }
 
@@ -97,7 +98,9 @@ max-height: 450px;
   #intro {
     padding-top: 3.5rem;
   }
-
+ h1 {
+   padding-top: 2rem;
+ }
     .container-recipe {
       flex-direction: column;
     }
